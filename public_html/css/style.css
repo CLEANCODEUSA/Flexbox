@@ -11,7 +11,7 @@ textarea {
   line-height: 1.5;
 }
 
-body{
+body {
   margin: 0;
   padding: 0;
   font-family: 'Asap', sans-serif;
@@ -50,7 +50,7 @@ p {
   margin: 0;
 }
 
-.site-header{
+.site-header {
   display: flex;
   flex-flow: column;
   height: 400px;
@@ -58,7 +58,7 @@ p {
   color: white;
 }
 
-.site-info{
+.site-info {
   flex-grow: 1;
   display: flex;
   flex-flow: column;
@@ -76,7 +76,7 @@ p {
   padding: 0;
 }
 
-@media screen and (min-width: 1120px){
+@media screen and (min-width: 1120px) {
   .site-title {
     font-size: 4em;
   }
@@ -125,13 +125,11 @@ p {
   background-color: black;
 }
 
-@media screen and (min-width: 810px){
+@media screen and (min-width: 810px) {
 
-  .main-menu{
+  .main-menu {}
 
-  }
-
-  .main-menu ul{
+  .main-menu ul {
     display: flex;
     flex-flow: row;
     justify-content: space-between;
@@ -151,7 +149,7 @@ p {
 
 }
 
-@media screen and (min-width: 1120px){
+@media screen and (min-width: 1120px) {
   .content-area {
     display: flex;
   }
@@ -161,13 +159,13 @@ p {
 start Section sidebar styles
 --------------------------------------------------------------*/
 
-.sidebar-right{
+.sidebar-right {
   padding: 2em;
   color: black;
   background-color: #EDEDED;
 }
 
-@media screen and (min-width: 1120px){
+@media screen and (min-width: 1120px) {
   .sidebar-right {
     /*flex: 0 0 320px;*/
     flex-grow: 0;
@@ -176,7 +174,7 @@ start Section sidebar styles
   }
 }
 
-.widget{
+.widget {
   background-color: white;
   margin-bottom: 2em;
 }
@@ -211,10 +209,11 @@ end Section sidebar styles
   font-weight: bold;
 }
 
-.post{
+.post {
   background-color: white;
   margin-bottom: 1em;
 }
+
 .post a {
   color: black;
   text-decoration: none;
@@ -245,7 +244,7 @@ end Section sidebar styles
   /*border: 3px solid red;*/
 }
 
-@media screen and (min-width: 810px){
+@media screen and (min-width: 810px) {
   .posts {
     display: flex;
     flex-wrap: wrap;
@@ -258,13 +257,11 @@ end Section sidebar styles
     flex-basis: 100%;
   }
 
-  .post-half{
+  .post-half {
     flex-basis: 49%;
   }
 
-  post-one-third {
-
-  }
+  post-one-third {}
 
   .post-full {
     flex-basis: 49%;
@@ -272,7 +269,7 @@ end Section sidebar styles
 
 }
 
-@media screen and (min-width: 1120px){
+@media screen and (min-width: 1120px) {
 
   .post-one-third {
     flex-basis: 32%;
@@ -328,18 +325,18 @@ end Section sidebar styles
   margin: 1em 0;
 }
 
-.watch-content a{
+.watch-content a {
   color: white;
   font-weight: bold;
 }
 
-@media screen and (min-width: 810px){
+@media screen and (min-width: 810px) {
 
   .watch-card {
     display: flex;
   }
 
-  .watch-content{
+  .watch-content {
     display: flex;
     flex-flow: column;
     justify-content: center;
@@ -355,4 +352,3 @@ end Section sidebar styles
 /*--------------------------------------------------------------
 	END WATCH SECTION STYLES
 --------------------------------------------------------------*/
-
